@@ -1,0 +1,15 @@
+<div class="change-event">
+  <div class="child-title">ChangeEvent デモ</div>
+  <el-row>
+      <el-col :span="16">
+          <el-select v-model="selectItem" @change="changeItem()">
+              <el-option label="Apple" value="Apple">Apple</el-option>
+              <el-option label="Banana" value="Banana">Banana</el-option>
+              <el-option label="Orange" value="Orange">Orange</el-option>
+          </el-select>
+      </el-col>
+      <el-col :span="4">
+          <div class="select-text">{{ selectedText }}</div>
+      </el-col>
+  </el-row>
+</div>

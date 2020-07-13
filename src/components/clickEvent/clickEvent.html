@@ -1,0 +1,11 @@
+<div class="click-event">
+  <div class="child-title">ClickEvent デモ</div>
+  <el-row>
+      <el-col :span="16">
+          <el-button @click="addCount">カウントアップ</el-button>
+      </el-col>
+      <el-col :span="2">
+          <div class="count-number">{{ countNumber }}</div>
+      </el-col>
+  </el-row>
+</div>

@@ -1,0 +1,16 @@
+.v-show {
+  .button-area {
+    margin-bottom: 20px;
+  }
+
+  .image-transition-enter-active,
+  .image-transition-leave-active {
+    transition: all .5s;
+  }
+
+  .image-transition-enter,
+  .image-transition-leave-to {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+}

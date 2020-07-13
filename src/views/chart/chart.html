@@ -1,0 +1,10 @@
+<div class="chart">
+  <div class="title">{{ chartTitle }}</div>
+  <!-- router-link.link-chart(to="/") VueDemo集はこちら-->
+  <el-row>
+      <div class="chart-area">
+          <!-- el-button.change-value-button(type="primary" @click="createChartData()") データ変更-->
+          <lineChartComponent :chart-data="chartData" :chart-options="chartOptions"></lineChartComponent>
+      </div>
+  </el-row>
+</div>

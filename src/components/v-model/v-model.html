@@ -1,0 +1,11 @@
+<div class="v-model">
+  <div class="child-title">v-model デモ</div>
+  <el-row>
+      <el-col :span="10">
+          <el-input v-model="inputText" placeholder="文字を入力してください"></el-input>
+      </el-col>
+      <el-col :span="14">
+          <div class="input-text">{{ inputText }}</div>
+      </el-col>
+  </el-row>
+</div>
