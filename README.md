@@ -1,5 +1,11 @@
 # vue-demo-sample
 
+Vue.jsで出来ることの簡単なデモサンプルプロジェクトです。
+
+## 前提事項
+- nodeバージョン:10.21.0
+- yarnがインストール済みであること
+
 ## Project setup
 ```
 yarn install
